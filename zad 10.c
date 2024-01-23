@@ -1,15 +1,3 @@
-﻿﻿/*10. Napisati program koji čita datoteku drzave.txt u kojoj su zapisani nazivi pojedinih država. Uz
-ime države u datoteci se nalazi i ime dodatne datoteke u kojoj se nalaze gradovi pojedine
-države. Svaka datoteka koja predstavlja državu sadrži popis gradova u formatu naziv_grada,
-broj_stanovnika.
-a) Potrebno je formirati sortiranu vezanu listu država po nazivu. Svaki čvor vezane liste
-sadrži stablo gradova sortirano po broju stanovnika, zatim po nazivu grada.
-b) Potrebno je formirati stablo država sortirano po nazivu. Svaki čvor stabla sadrži vezanu
-listu gradova sortiranu po broju stanovnika, zatim po nazivu grada.
-Nakon formiranja podataka potrebno je ispisati države i gradove te omogućiti korisniku putem
-tastature pretragu gradova određene države koji imaju broj stanovnika veći od unosa na
-tastaturi.*/
-
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<stdlib.h>
